@@ -38,6 +38,6 @@
 </section>
 @include('modals\account\modalAddAccount')
 @include('modals\account\modalUpdateAccount');
-@include('modals\account\modalChangePassword');
+
 <script type="module" src="{{asset('js/account/index.js')}}"></script>
 @endsection

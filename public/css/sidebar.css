@@ -63,6 +63,7 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
     background: #facd7b;
     border-left: 4px solid #0e58b9;
+    cursor: pointer;
 }
 
 .menu>li>a {
