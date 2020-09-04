@@ -1,4 +1,15 @@
-export function pagination(startPage, totalPage, handlerPage, container) {
+export function pagination(
+    startPage,
+    totalPage,
+    handlerPage,
+    container,
+    curentPage = 0
+) {
+    container.html = "";
+    if (curentPage > 0) {
+        startPage = curentPage;
+    }
+    totalPage = startPage + 10;
     const nav = document.createElement("nav");
     nav.setAttribute("aria-label", "Page navigation example");
 

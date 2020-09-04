@@ -29,3 +29,6 @@ Route::get('/message', function () {
 Route::get('/account', function () {
     return view('account\index');
 });
+Route::get('/assessment', function () {
+    return view('assessment\index');
+});

@@ -17,3 +17,15 @@
 .toolbox {
     margin: 5px 0px 5px 0px;
 }
+
+.modal-xl {
+    min-width: 80%;
+}
+
+.modal-title {
+    font-size: 14pt;
+}
+
+*:focus {
+    outline: none !important;
+}

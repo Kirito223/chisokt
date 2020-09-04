@@ -9,9 +9,9 @@
                     <li class='sub-menu'><a href='#settings' class="btn-menu-avatar">Admin Bình Định<div
                                 class='fa fa-caret-down right'></div></a>
                         <ul class="menu">
-                            <li><a onclick="changeAvatar();"><i class="fas fa-user-tie"></i> Đổi ảnh đại diện</a>
+                            <li><a onclick="changeAvatar()"><i class="fas fa-user-tie"></i> Đổi ảnh đại diện</a>
                             </li>
-                            <li><a onclick="changePasswordAccount();"><i class="fas fa-key"></i> Thay đổi mật khẩu</a></li>
+                            <li><a onclick="changePasswordAccount()"><i class="fas fa-key"></i> Thay đổi mật khẩu</a></li>
                             <li><a href='#settings'><i class="fas fa-sign-out-alt"></i> Thoát</a></li>
                         </ul>
                     </li>
@@ -46,14 +46,11 @@
 </section>
 <link rel="stylesheet" href="{{asset('css/sidebar.css')}}" />
 <script>
-    window.onload = function(){
     $('.sub-menu ul').hide();
 $(".sub-menu a").click(function () {
 	$(this).parent(".sub-menu").children("ul").slideToggle("100");
 	$(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
 });
-
-}
 
 function changeAvatar(e){
 $('#avatarFile').click();
