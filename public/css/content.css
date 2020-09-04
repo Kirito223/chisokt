@@ -1,0 +1,19 @@
+.content-box {
+    background-color: #ffffff;
+}
+
+.titleContent {
+    text-align: center;
+}
+
+.pagination-box {
+    text-align: center;
+}
+
+.page-link {
+    cursor: pointer;
+}
+
+.toolbox {
+    margin: 5px 0px 5px 0px;
+}
